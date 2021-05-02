@@ -54,6 +54,7 @@ function draw() {
   strokeWeight(8);
   arc(0,0,330,330,0,mnAngle)
   //hr
+  rotate(-180)
   push ()
   rotate (hrAngle);
   stroke(0,0,255);
