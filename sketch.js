@@ -28,7 +28,7 @@ function draw() {
   console.log(sec);
   
   scAngle= map(sec,0,60,0,360);
-  hrAngle= map(hr,0,24,0,360);
+  hrAngle= map(hr,12,0,12,0,360);
   mnAngle= map(min,0,60,0,360);
 // sec
   push ()
